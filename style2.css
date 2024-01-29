@@ -197,6 +197,88 @@ font-size: 15px;
 text-decoration: none;
 color: rgb(0, 0, 0);
 }
+
+.Portfolio-content5{
+    background-color: #c94242;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70%;
+    margin-left: 15%;
+    border-radius: 20px;
+    opacity: 90%;
+    margin-bottom: 40px;
+}
+.Portfolio .Portfolio-content5 img{
+width: 450px;
+height: 400px;
+padding: 20px;
+border-radius: 50px;
+}
+.Portfolio .Portfolio-content5 h2{
+font-size: 30px;
+color: azure;
+}
+.Portfolio .Portfolio-content5 p{
+font-size: 20px;
+margin-right: 8px;
+color: azure;
+}
+.Portfolio .Portfolio-content5 button{
+padding: 10px;
+font-size: 15px;
+border-radius: 10px;
+border-width: 0;
+cursor: pointer;
+}
+.Portfolio .Portfolio-content5 button .bx{
+font-size: 15px;
+}
+.Portfolio-content5 a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+
+.Portfolio-content6{
+    background-color: #bec942;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70%;
+    margin-left: 15%;
+    border-radius: 20px;
+    opacity: 90%;
+    margin-bottom: 40px;
+}
+.Portfolio .Portfolio-content6 img{
+width: 450px;
+height: 400px;
+padding: 20px;
+border-radius: 50px;
+}
+.Portfolio .Portfolio-content6 h2{
+font-size: 30px;
+color: azure;
+}
+.Portfolio .Portfolio-content6 p{
+font-size: 20px;
+margin-right: 8px;
+color: azure;
+}
+.Portfolio .Portfolio-content6 button{
+padding: 10px;
+font-size: 15px;
+border-radius: 10px;
+border-width: 0;
+cursor: pointer;
+}
+.Portfolio .Portfolio-content6 button .bx{
+font-size: 15px;
+}
+.Portfolio-content6 a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
 .more{
     text-align: center;
     padding-bottom: 30px;
@@ -241,7 +323,8 @@ color: rgb(0, 0, 0);
     }
     .Portfolio .Portfolio-content button{
         font-size: 10px;
-        margin-bottom:10px ;   
+        margin-bottom:10px ; 
+        margin-top: 0;  
     }
     
 
@@ -268,7 +351,7 @@ color: rgb(0, 0, 0);
     }
     .Portfolio .Portfolio-content2 button{
         font-size: 10px;
-        margin-bottom:10px ;   
+        margin-bottom:10px;   
     }
     
     /*3 */
@@ -323,8 +406,61 @@ color: rgb(0, 0, 0);
     }
     .Portfolio .Portfolio-content4 button{
         font-size: 10px;
-        margin-bottom:60px ;
+        margin-bottom:70px ;
     }
+    /*5*/
+    .Portfolio .Portfolio-content5{
+        max-width: 350px;
+        max-height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Portfolio .Portfolio-content5 img{
+        width: 250px;
+        height: 200px;
+    }
+    .Portfolio .Portfolio-content5 h2{
+        font-size: 20px; 
+        padding-top: 10px;
+        padding-bottom: 0px; 
+        margin-bottom: 0;
+    }
+    .Portfolio .Portfolio-content5 p{
+        font-size: 10px;
+        font-weight: 300;
+        margin-right: 10px;
+    }
+    .Portfolio .Portfolio-content5 button{
+        font-size: 10px;
+        margin-bottom:10px ;   
+    }
+    /*6*/
+    .Portfolio .Portfolio-content6{
+        max-width: 350px;
+        max-height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Portfolio .Portfolio-content6 img{
+        width: 250px;
+        height: 200px;
+    }
+    .Portfolio .Portfolio-content6 h2{
+        font-size: 20px; 
+        padding-top: 10px;
+        padding-bottom: 0px; 
+        margin-bottom: 0;
+    }
+    .Portfolio .Portfolio-content6 p{
+        font-size: 10px;
+        font-weight: 300;
+        margin-right: 10px;
+    }
+    .Portfolio .Portfolio-content6 button{
+        font-size: 10px;
+        margin-bottom:10px ;   
+    }
+
     .more{
         font-size: 20px;
     }
